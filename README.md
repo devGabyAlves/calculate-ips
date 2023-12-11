@@ -17,11 +17,11 @@ Contato: gabriellysthefany.alves@gmail.com
 Para usar esta função, siga estes passos:
 
 1. Input de IPs: Passe uma lista de IPs para a função salvar_ips_em_arquivo(lista_ips, nome_arquivo).
-2. Estrutura da Lista: A lista deve conter IPs no formato 'X.X.X.X/Máscara' (por exemplo, '192.168.1.0/24').
+2. Estrutura da Lista: A lista deve conter IPs no formato 'X.X.X.X/Máscara' (por exemplo, '000.000.0.0/24').
 3. Saída: Será gerado um arquivo de texto com a listagem dos IPs válidos identificados na varredura.
 
 Exemplo de uso:
-lista_ips = ['192.168.1.0/24', '10.0.0.0/8', '8.8.8.8/32']
+lista_ips = ['000.000.0.0/24', '11.1.1.1/8', '8.8.8.8/32']
 nome_arquivo = 'ips_validos.txt'
 
 salvar_ips_em_arquivo(lista_ips, nome_arquivo)
